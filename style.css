@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5vw;
+    background-image: url("imagem/imagem.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.container{
+    width: 100%;
+    max-width: 600px;
+    height: 450px;
+    margin: 15px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.708);
+    box-shadow: 10px 10px 10px black;
+}
+
+.title{
+    font-size: 13px;
+    margin: 20px;
+    font-family: cursive;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.formulario{
+    padding: 10px;
+}
+
+.form-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.input-box label{
+    display: inline-block;
+    margin-bottom: 4px;  
+    font-size: 18px; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    margin-top: 10px;
+    
+}
+
+.input-box input{
+    display: block;
+    padding: 5px;
+    
+}
+
+.input-box input::placeholder{
+    font-size: 12px;
+}
+
+.genero-input{
+    padding: 5px;
+}
+
+.genero-input h5{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.genero-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.input label{
+    font-size: 16px;
+    margin: 5px;
+    font-weight: 600;
+
+}
+
+.Cadastre-se{
+    text-align: center;
+}
+
+.Cadastre-se button{
+    margin-top: 40px;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: none;
+    background-color:rgba(255, 255, 255, 0.552) ;
+    box-shadow: 10px 10px 10px black;
+    cursor: pointer;
+}
+
+.Cadastre-se button:hover{
+    background-color: antiquewhite;
+}
+
+.Cadastre-se a{
+    color: black;
+}
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+    
+    .container{
+        width: 100%;
+        height: 600px;   
+    }
+    .title{
+        font-size: 10px;
+    }
+
+    .form-box{
+        gap: 5px;
+        justify-content: center;
+        
+    }
+
+    .genero-input{
+        margin-top: 30px;
+        
+    }
+
+    .input-box{
+        margin-top: 10px;
+    }
+
+    .input-box label{
+        font-size: 20px;
+    }
+
+  
+
+    .input-box input::placeholder{
+        font-size: 12px;
+        color: black;
+    }
+
+    .Cadastre-se{
+        margin-top: 25px;
+    }
+
+    .Cadastre-se button{
+        background-color: rgb(176, 176, 161);
+        padding: 5px;
+        margin-top: 25px;
+        border-radius: 10px;
+        border: none;
+        
+    }
+
+    .Cadastre-se a{
+        color: black;
+        font-size: 20px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+
+    .container{
+        width: 100%;
+        height: 950px;
+        
+    }
+    .title{
+        font-size: 13px;
+        font-weight: 600;        
+        
+    }
+
+    .form-box{
+        gap: 5px;
+        justify-content: center;
+        margin-top: 5px;
+        
+    }
+
+    .input-box input{
+        font-size: 15px;
+    }
+
+    .genero-group{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .genero-input{
+        margin-top: 5px;
+       
+    }
+
+    .input{
+        margin-top: 5px;
+    }
+
+    .input label{
+        font-size: 12px;
+    }
+
+    .Cadastre-se button{
+        width: 200px;
+        background-color: beige;
+        padding: 5px;
+        margin-top: 15px;
+        border-radius: 10px;
+        border: none;
+       
+        
+    }
+   
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+
